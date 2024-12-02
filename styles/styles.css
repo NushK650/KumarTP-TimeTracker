@@ -1,0 +1,10 @@
+@import url(../d);
+.grid-container{
+    display: grid;
+
+}
+
+.report-container{
+    grid-column: 1;
+    
+}
