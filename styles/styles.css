@@ -46,6 +46,8 @@ filter: brightness(1000%);
 }
 
 .time-frames {
+    
+    margin-top: 82%;
     background-color: hsl(235, 46%, 20%);
     padding: 30px;
     border-radius: 0 0 15px 15px;
