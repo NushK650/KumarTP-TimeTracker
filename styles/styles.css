@@ -1,4 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 body {
+    font-family: roboto-regular;
     background-color: rgb(3, 3, 40);
     color: white;
 }
@@ -12,13 +21,10 @@ img {
 }
 
 .icons {
-    padding-left: px;
-}
-
-.cardText {
     display: flex;
-
+    /* fix the icon being on the right they need to be on the left  */
 }
+
 
 .dashboard {
     display: grid;
@@ -163,7 +169,7 @@ img {
     background-color: hsl(235, 46%, 20%);
     padding: 30px;
     border-radius: 15px;
-    position: relative;
+  
     top: -10px;
 }
 
@@ -228,7 +234,11 @@ img {
 
     }
 
-
+.cardText{
+    display: flex;
+    flex-direction: row;
+    /* fix the text not being in the same row */
+}
 
     .time-frames {
         display: flex;
@@ -240,6 +250,5 @@ img {
 
     .activity-grid {
         grid-template-columns: 1fr;
-        /* Single column */
     }
 }
