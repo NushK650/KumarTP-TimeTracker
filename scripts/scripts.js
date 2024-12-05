@@ -28,7 +28,6 @@ let apiData = "";
 async function asycnGetData() {
   const promise = await fetch("./data.json");
   const data = await promise.json();
-  console.log(data);
   apiData = data;
 }
 asycnGetData();
@@ -73,7 +72,7 @@ dailyBtn.addEventListener("click", function () {
   const selfCareDailyPrevious = apiData[5].timeframes.daily.previous;
   selfCareHours.innerText = selfCareDailyHours;
   selfCarePrevious.innerText = selfCareDailyPrevious;
-  
+
 });
 weeklyBtn.addEventListener("click", function () {
     // work
