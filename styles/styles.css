@@ -1,11 +1,25 @@
-body
-{
+body {
     background-color: rgb(3, 3, 40);
     color: white;
 }
-.ellipsis:hover{
-filter: brightness(1000%);
+
+.ellipsis:hover {
+    filter: brightness(1000%);
 }
+
+img {
+    justify-content: end;
+}
+
+.icons {
+    padding-left: px;
+}
+
+.cardText {
+    display: flex;
+
+}
+
 .dashboard {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -46,7 +60,7 @@ filter: brightness(1000%);
 }
 
 .time-frames {
-    
+
     margin-top: 82%;
     background-color: hsl(235, 46%, 20%);
     padding: 30px;
@@ -87,8 +101,9 @@ filter: brightness(1000%);
     align-items: end;
     overflow: hidden;
     background-color: #FF8B64;
-    
+
 }
+
 .card-header-play {
     height: 50px;
     border-top-left-radius: 15px;
@@ -96,8 +111,9 @@ filter: brightness(1000%);
     align-items: end;
     overflow: hidden;
     background-color: #56C2E6;
-    
+
 }
+
 .card-header-study {
     height: 50px;
     border-top-left-radius: 15px;
@@ -106,34 +122,38 @@ filter: brightness(1000%);
     overflow: hidden;
     background-color: #FF5E7D;
     border-top: 15px;
-    
+
 }
+
 .card-header-exercise {
     height: 50px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     align-items: end;
     overflow: hidden;
-    background-color: #4BCF82;;
-    
+    background-color: #4BCF82;
+    ;
+
 }
+
 .card-header-social {
     height: 50px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     align-items: end;
     overflow: hidden;
-    background-color:  #7335D2;
-    
+    background-color: #7335D2;
+
 }
+
 .card-header-selfcare {
     height: 50px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     align-items: end;
     overflow: hidden;
-    background-color:#F1C75B;
-    
+    background-color: #F1C75B;
+
 }
 
 
@@ -175,4 +195,51 @@ filter: brightness(1000%);
 .previous {
     color: hsl(236, 100%, 87%);
     font-size: 0.9rem;
+}
+
+@media(max-width: 480px) {
+    .profile-img {
+        /* fix the img looking weird after being smaller than 480 */
+
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .dashboard {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+
+    .profile-info {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .profile-img {
+        width: 100px;
+        aspect-ratio: 1/1;
+
+    }
+
+
+
+    .time-frames {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+
+    .activity-grid {
+        grid-template-columns: 1fr;
+        /* Single column */
+    }
 }
