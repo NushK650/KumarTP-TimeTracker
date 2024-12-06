@@ -2,6 +2,7 @@ Name: Tanush Kumar
 Date: 12/6/24
 Project Name: Time Tracker
 Peer review: 
+Hassan Sajid  - Your project looks good overall but there are minor details that can be fixed to make it more accurate to the figma. You should make the banners for the time trackers behind the main div and then margin/padding or position the icon in it's right place. You should also use google fonts to import the font to match the figma. Lastly there is your responsiveness which is good as well but there is a slight error when sizing down where the div that holds the buttons slides up and down depending on screen size. Good job, your project is close enough to the figma but after these minor fixes it should look better.
 
 
 
