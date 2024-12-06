@@ -1,3 +1,15 @@
+Name: Tanush Kumar
+Date: 12/6/24
+Project Name: Time Tracker
+Peer review: 
+
+
+
+
+
+
+
+Description:  
 # Frontend Mentor - Time tracking dashboard
 
 ![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)
